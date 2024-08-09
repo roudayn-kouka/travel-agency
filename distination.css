@@ -1,0 +1,108 @@
+/* distination.css */
+
+body {
+    background-color: white;
+    margin: 0;
+}
+header{
+    margin: 0;
+}
+
+section {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 350px;
+    height: 360px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+article {
+    box-shadow: 0 0 6px gray;
+    border-radius: 8px;
+    margin: 2px;
+    width: 350px;
+    height: 598px;
+    background-color: rgb(251, 247, 242);
+    transition: transform 0.2s ease, border 0.2s ease;
+    font-family: cursive;
+}
+article:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 8px gray;
+}
+#class-comfort{
+    font-weight: bold;
+}
+#prix{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+.zero{
+    width: 17px;
+    height: 17px;
+    background-color: bisque;
+}
+span{
+    font-family: cursive;
+    font-size: 16px;
+}
+.details{
+    margin: 7px;
+    padding: 5px;
+    background-color: rgb(251, 247, 242);
+    line-height: 1.2;
+}
+.toggle{
+    background-color:rgb(129, 82, 25);
+    color: white;
+    width: 28%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(129, 82, 25);
+}
+.toggle:hover{
+    background-color:rgb(75, 46, 10);
+    border: 2px solid  rgb(75, 46, 10);
+    box-shadow: 0 0 7px rgb(75, 46, 10);
+}
+.petitbare{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+footer{
+    margin-top: 50px;
+    background-color: rgb(36, 23, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+.etoile{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.evaluation{
+    width:20px ;
+    height:20px ;
+}
+#option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(170, 81, 17);
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+}
